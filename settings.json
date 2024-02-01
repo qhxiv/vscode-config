@@ -17,7 +17,9 @@
   "window.autoDetectColorScheme": true,
   "window.menuBarVisibility": "toggle",
   "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Default Light Modern",
+  "workbench.colorTheme": "Min Dark",
+  "workbench.preferredLightColorTheme": "Min Light",
+  "workbench.preferredDarkColorTheme": "Min Dark",
   "workbench.startupEditor": "none",
   
   // VIM Keybinding
