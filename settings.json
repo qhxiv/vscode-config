@@ -2,11 +2,11 @@
   "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "IBM Plex Mono",
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
   "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
   "explorer.sortOrder": "type",
   "extensions.ignoreRecommendations": true,
@@ -15,10 +15,12 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "window.autoDetectColorScheme": true,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "toggle",
   "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Default Light Modern",
   "workbench.startupEditor": "none",
   
+  // VIM Keybinding
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
   "vim.normalModeKeyBindingsNonRecursive": [
