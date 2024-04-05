@@ -3,23 +3,30 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontSize": 13,
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
-  "editor.tabSize": 2,
   "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
   "explorer.sortOrder": "type",
   "extensions.ignoreRecommendations": true,
   "git.openRepositoryInParentFolders": "never",
   "liveServer.settings.donotShowInfoMsg": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.fontSize": 13,
   "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
   "window.menuBarVisibility": "toggle",
-  "workbench.activityBar.location": "hidden",
-  "workbench.colorTheme": "Min Dark",
-  "workbench.preferredLightColorTheme": "Min Light",
-  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   
   // VIM Keybinding
@@ -92,4 +99,6 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
+  "redhat.telemetry.enabled": true,
+  "workbench.colorTheme": "Default Light Modern",
 }
