@@ -2,7 +2,7 @@
   "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "Hack",
   "editor.fontSize": 13,
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
@@ -18,12 +18,12 @@
   "extensions.ignoreRecommendations": true,
   "git.openRepositoryInParentFolders": "never",
   "liveServer.settings.donotShowInfoMsg": true,
+  "redhat.telemetry.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontSize": 13,
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
-  "window.menuBarVisibility": "toggle",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "workbench.sideBar.location": "right",
@@ -99,6 +99,5 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
-  "redhat.telemetry.enabled": true,
   "workbench.colorTheme": "Default Light Modern",
 }
