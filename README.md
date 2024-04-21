@@ -1,2 +1,2 @@
 # vscode-config
-put these files in `%appdata%/Code/User` (for Windows)
+put these files in `%appdata%/Code/User`  (for Windows)
