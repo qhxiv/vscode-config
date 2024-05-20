@@ -1,8 +1,7 @@
 {
-  "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "IBM Plex Mono",
+  "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontSize": 13,
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
@@ -23,9 +22,11 @@
   "terminal.integrated.fontSize": 13,
   "window.autoDetectColorScheme": true,
   "window.commandCenter": false,
-  "window.menuBarVisibility": "toggle",
   "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.preferredLightColorTheme": "Min Light",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   
@@ -99,6 +100,4 @@
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
-  "redhat.telemetry.enabled": true,
-  "workbench.colorTheme": "Default Light Modern",
 }
