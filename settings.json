@@ -17,6 +17,7 @@
   "extensions.ignoreRecommendations": true,
   "git.openRepositoryInParentFolders": "never",
   "liveServer.settings.donotShowInfoMsg": true,
+  "redhat.telemetry.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontSize": 13,
