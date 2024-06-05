@@ -1,23 +1,22 @@
 {
+  "breadcrumbs.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Hack",
   "editor.fontSize": 13,
   "editor.lineNumbers": "relative",
-  "editor.linkedEditing": true,
+  "editor.linkedEditing": false,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
   "explorer.sortOrder": "type",
   "extensions.ignoreRecommendations": true,
   "git.openRepositoryInParentFolders": "never",
   "liveServer.settings.donotShowInfoMsg": true,
-  "redhat.telemetry.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontSize": 13,
@@ -26,11 +25,9 @@
   "workbench.activityBar.location": "top",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
-  "workbench.preferredDarkColorTheme": "Min Dark",
-  "workbench.preferredLightColorTheme": "Min Light",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  
+
   // VIM Keybinding
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
@@ -100,5 +97,5 @@
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
     // toggle comment selection
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
-  ],
+  ]
 }
